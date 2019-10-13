@@ -6,8 +6,8 @@ end
 
 def find_max_value(array)
   array.max_by { |element|
-  element.field
- } 
+  element
+ }
 end
 
 def find_min_value(array)
